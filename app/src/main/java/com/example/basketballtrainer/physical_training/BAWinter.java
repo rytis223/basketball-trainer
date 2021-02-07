@@ -9,22 +9,23 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.basketballtrainer.R;
-import com.example.basketballtrainer.databinding.BaConditioningBinding;
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
+import com.example.basketballtrainer.databinding.BaAgilityBinding;
+import com.example.basketballtrainer.databinding.BaSummerBinding;
+import com.example.basketballtrainer.databinding.BaWinterBinding;
 
-public class BAConditioning extends Fragment {
+public class BAWinter extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
-
-
-
-       final BaConditioningBinding binding = BaConditioningBinding.inflate (inflater, container, false);
+        BaWinterBinding binding = BaWinterBinding.inflate (inflater, container, false);
 
         return binding.getRoot();
+
+
+
+
     }
 }
